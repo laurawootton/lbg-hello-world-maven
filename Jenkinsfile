@@ -6,13 +6,7 @@ pipeline {
         }
 
         stages {
-            stage('Checkout') {
-                steps {
-                    // Get some code from a GitHub repository
-
-                    // git branch: 'main', url: 'YOUR GITHUB REPO URL HERE'
-                }
-            }
+           
             stage('Compile') {
                 steps {
                     // Run Maven on a Unix agent.
